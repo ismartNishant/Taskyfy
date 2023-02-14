@@ -23,16 +23,13 @@ const App: React.FC = () => {
 
   return (
     <div className='d-flex flex-column app align-items-center'>
-     
         <span className='logo text-light   my-3 text-center'>TASkYFY</span>
         <InputField
           todo={todo}
           setTodo={setTodo}
           handleAdd={handleAdd} />
-        {/* {  todos.map((t) => {
-          return <li>{t.todo}</li>
-          })} */}
-          <TodoList todos={todos} setTodos={setTodos} />
+     
+        <TodoList todos={todos} setTodos={setTodos} />
       
     </div>
   )

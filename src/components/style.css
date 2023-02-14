@@ -33,3 +33,43 @@
 .go-btn:active{
     transform: scale(0.8);
 }
+
+.todos{
+    border-radius: 5px;
+    width: 70%;
+    padding: 15px;
+}
+.single-todos{
+ padding: 18px ;
+ width: 45%;
+ font-size: 1.2rem;
+ margin: 10px;
+ color: #fff;
+ background: #221c3c;
+}
+.bx-tada-hover{
+    cursor: pointer;
+}
+.single-todo-text{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+.todo-icons i{
+    font-size: 1.25rem;
+    transition: .2s all;
+}
+.todo-icons i:hover{
+    background: #fff;
+    color:#554994;
+}
+@media (max-width: 800px) {
+    .todos{
+        width: 100%;
+    }
+    .single-todos{
+        width: 100%;
+    }
+  }
+  

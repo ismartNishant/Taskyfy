@@ -10,9 +10,9 @@ interface Props {
 
 const TodoList: React.FC<Props> = ({ todos, setTodos }) => {
     return (
-        <div className='todos d-flex flex-column flex-wrap'>
+        <div className='todos d-flex justify-content-between flex-wrap'>
             {
-                todos.map((t) =>
+                todos?.map((t) =>
                     <SingleTodo
                         todo={t}
                         todos={todos}
