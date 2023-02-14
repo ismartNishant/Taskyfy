@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+:root{
+  --main-clr:#554994;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.logo{
+  font-family: 'Russo One', sans-serif;
+  font-size: 3rem;
+  z-index: 1;
+}
+.app{
+  width: 100vw;
+  height: 100vh;
+  background: var(--main-clr);
+}
+
+@media (max-width: 800px) {
+  .app .my-3{
+    margin: .8rem;
+  }
+}
+
