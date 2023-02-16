@@ -50,7 +50,7 @@
 .bx-tada-hover{
     cursor: pointer;
 }
-.single-todo-text{
+.single-todos-text{
     flex: 1;
     padding: 5px;
     border: none;
