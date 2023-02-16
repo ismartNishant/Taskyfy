@@ -41,7 +41,7 @@ useEffect(() => {
 
   return (
 
-    <Form className='single-todos d-flex justify-content-between align-items-center' onSubmit={(e) => handleEdit(e, todo.id)} >
+    <Form className='single-todos gap-2 d-flex justify-content-between align-items-center' onSubmit={(e) => handleEdit(e, todo.id)} >
       {edit ? (
         <input ref={inputRef} value={editTodo} onChange={(e) => setEditTodo(e.target.value)} className="editable-todo-text" />
 

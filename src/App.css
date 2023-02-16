@@ -9,17 +9,16 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+body{
+  background: linear-gradient(to right, #000000, #434343)
+}
 
 .logo{
   font-family: 'Russo One', sans-serif;
   font-size: 3rem;
   z-index: 1;
 }
-.app{
-  width: 100vw;
-  height: 100vh;
-  background: var(--main-clr);
-}
+
 
 @media (max-width: 800px) {
   .app .my-3{
